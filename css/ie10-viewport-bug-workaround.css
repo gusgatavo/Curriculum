@@ -1,0 +1,13 @@
+/ *!
+ * IE10 truco ventana gráfica de superficie / escritorio de Windows 8 insecto
+ * Derechos de Autor 2014-2015 Twitter, Inc.
+ * Bajo licencia MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * /
+
+/ *
+ * Consulte la Guía de documentos Comenzar para más información:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ * /
+@ -ms-Ventana {width: Dispositivo de ancho; }
+@ -o-Ventana {width: Dispositivo de ancho; }
+@viewport {width: Dispositivo de ancho; }

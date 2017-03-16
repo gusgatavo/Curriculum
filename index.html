@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
 
@@ -20,23 +21,44 @@
   <body>
     <h1>Hello, world!</h1>
 	
-	<div>
-		<ul class="nav nav-tabs" role="tablist">
-			<li role="presentation" class="active">
-				<a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
-			</li>
-			<li role="presentation">
-				<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a>
-			</li>
-			<li role="presentation">
-				<a href="#message" aria-controls="message" role="tab" data-toggle="tab">Messages</a>
-			</li>
-			<li role="presentation">
-				<a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a>
-			</li>
-		</ul>
-	</div>
-	
+  <nav class="navbar nav-default">
+
+  	<div>
+  		<!--<ul class="nav nav-tabs" role="tablist">-->
+      <ul role="presentation" class="nav nav-pills nav-justified">
+      <!--<ul role="presentation" class="nav nav-pills nav-stacked">-->
+  			<li role="presentation" class="active">
+  				<a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+  			</li>
+  			<li role="presentation">
+  				<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a>
+  			</li>
+  			<li role="presentation">
+  				<a href="#message" aria-controls="message" role="tab" data-toggle="tab">Messages</a>
+  			</li>
+  			<li role="presentation">
+  				<a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a>
+  			</li>
+
+        <li role="presentation" class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li role="presentation">
+              <a href="#" aria-controls="" role="tab" data-toggle="tab">a</a>
+            </li>
+            <li role="presentation">
+              <a href="#" role="tab">B</a>
+            </li>
+          </ul>
+        </li>
+  		</ul>
+  	</div>
+
+	</nav>
+
 	<div class="tab-content">
 		  <div role="tabpanel" class="tab-pane active" id="home">home</div>
       <div role="tabpanel" class="tab-pane" id="profile">Profile</div>
