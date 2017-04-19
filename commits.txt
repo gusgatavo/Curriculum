@@ -1,0 +1,23 @@
+commit cea0309b7d0d6f7f7b8683c9165f53f5a115bb4f
+Author: Gustavo <gustavino_tavo@hotmail.com>
+Date:   Thu Mar 16 12:01:49 2017 -0300
+
+    Datos del CV completos
+
+commit a239fd3cd0817027f5012d701470019d2c8e1053
+Author: Gustavo <gustavino_tavo@hotmail.com>
+Date:   Thu Mar 16 11:10:06 2017 -0300
+
+    Datos del sitio web (desde "Datos Personales" hasta "Conocimientos Especificos")
+
+commit af6fe6a24b7e921a3c3450984dc40c61586af32b
+Author: Gustavo <gustavino_tavo@hotmail.com>
+Date:   Wed Mar 15 23:45:52 2017 -0300
+
+    Realizacion de estructura grafica
+
+commit 1d69e6e82ce006d0385e7c8dccf26d9e872a7b46
+Author: Gustavo <gustavino_tavo@hotmail.com>
+Date:   Wed Mar 15 14:33:20 2017 -0400
+
+    Inicio del proyecto de mi Curriculum Vitae
